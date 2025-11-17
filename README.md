@@ -1,5 +1,9 @@
 # lassaVacc_HCWs
-Model evaluating health impacts of vaccinating Nigerian healthcare workers against Lassa fever. Composed of 5 scripts and 5 data input files. This code was developed, tested and run in R v.4.5.1. All packages required to run the code are listed in housekeeping.R. Total run time on a normal desktop computer is <2 minutes. 
+Model evaluating health impacts of vaccinating Nigerian healthcare workers against Lassa fever. Composed of 5 scripts and 5 data input files. 
+
+This code was developed, tested and run in R v.4.5.1. All packages required to run the code are listed in housekeeping.R. Total run time on a normal desktop computer is <2 minutes. 
+
+Running this code reproduces all quantitative results and figures in the manuscript.
 
 ### (1) housekeeping.R
 Base functions and labels
