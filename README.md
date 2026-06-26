@@ -12,7 +12,7 @@ Base functions and labels
 NCDC case data time series and summary statistics
 
 ### (3) hospital_model_general_inputs.R
-General model inputs; this loads from the /data directory, including data from a literature review of Lassa fever CFR in HCWs (review_data_extraction.xlsx), state-level population estimates (df_population.Rdata), life expectancy data (df_un_le_nigeria_2025.csv) and decision tree parameters (params_montecarlo.Rdata)
+General model inputs; this loads from the /data directory, including NCDC case data (NCDC data totals and HCW by week and annual.xlsx), data from a literature review of Lassa fever CFR in HCWs (review_data_extraction.xlsx), state-level population estimates (df_population.Rdata), HCW age and sex distributions (HCWs_nigeria_age_sex.csv), life expectancy data (df_life_exp_age_sex_year.Rdata) and decision tree parameters (params_montecarlo.Rdata)
 
 ### (4) hospital_model.R
 The model, simulates outcomes and vaccine impact
